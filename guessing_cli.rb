@@ -2,10 +2,10 @@
 
 def run_guessing_game
   
-def guess
-  puts "Guess a number between 1 and 6."
-  return user_input = gets.chomp
-end
+# def guess
+#   puts "Guess a number between 1 and 6."
+#   return user_input = gets.chomp
+# end
 
 random_output = rand(1..6).to_s
  
